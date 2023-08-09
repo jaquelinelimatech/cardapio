@@ -1,0 +1,124 @@
+links 
+Foto de David Bares: https://www.pexels.com/pt-br/foto/cappuccino-branco-com-design-de-creme-de-cisne-189258/
+
+			   https://www.pexels.com/pt-br/foto/cappuccino-branco-com-design-de-creme-de-cisne-189258/ - capuccino
+
+			  https://www.pexels.com/pt-br/foto/dois-liquidos-marrons-em-vidro-com-gelo-1162455/ - café gelado
+			 
+ 	              https://www.pexels.com/pt-br/foto/bolo-de-queijo-1126359/ - cheesecake
+			
+			  https://www.pexels.com/pt-br/foto/foto-de-close-up-de-brownies-3026804/ - brownie
+
+			  
+			 https://www.pexels.com/photo/tasty-cupcake-with-whipped-cream-6210740/ - cupcake
+			
+			 https://www.pexels.com/pt-br/foto/creme-de-caramelo-12322407/ - pudim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:rgb(240, 179, 240);
+    margin: auto ;
+}
+
+ul{
+list-style: none;
+display:flex;
+justify-content: space-around;
+ 
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+   
+}
+a {
+  text-decoration: none;
+  color: rgb(202, 65, 65)
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.menu1{
+display: flex;
+}
+
+.menu1 li{
+    margin-left: 10px;
+    }
+
+.menu1 li a {
+    display: block;
+    padding: 10px;
+} 
+
+
+/*css flex box*/
+
+.img{
+   max-width: 100%;
+   display: block;
+   */*flex-wrap: wrap;*/* 
+   border: 10px solid rgb(247, 239, 239);
+   margin:0 auto;
+   float:left;
+   padding: 10px;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.doces {
+  display: inline;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.doces > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.bebidas{
+    display:inline-block;
+    flex-wrap: wrap; 
+    float: float;
+}
+
+
+.bebidas > div{
+   */* flex: 1 1 200px;*/*
+    margin: 10px;
+    border: white;
+    padding:2%;
+}
+
+.figure{
+    float: float;
+    text-justify: justify;
+    justify-content: space-between;

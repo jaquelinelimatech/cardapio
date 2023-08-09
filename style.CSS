@@ -1,0 +1,85 @@
+body, html, li{
+    margin: 0px;
+    background-color: aliceblue;
+    padding: opx;
+    list-style: none;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 137, 137);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+h3{
+    margin: 20px;
+}
+
+.menu1{
+    display: flex;}
+
+.menu1 li {
+    margin-left: 20px;
+}
+
+.menu1 li a{
+    display: block;
+    padding: 10px;
+}
+
+
+
+.img{
+    max-width: 100%;
+    min-width: auto;
+    display: inline;
+}
+
+.DOCES{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin:0 auto ;
+}
+
+.DOCES > div{
+    flex: 1 1 200px;
+    margin: 2px;0px;
+}
+
+
+
+.BEBIDAS{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin:0 auto ;
+}
+
+.BEBIDAS > div{
+    flex: 1 1 200px;
+    margin: 2px;0px;
+}
+
+
+
+
+.rodape{
+    display: inline;
+    text-decoration-color: black;
+    padding-left: 10px;
+    margin-right: 10px;
+     
+}
+
+contener
+
+
+
+
