@@ -10,6 +10,13 @@ a{
     text-decoration: none;
     color: rgb(240, 137, 137);
 }
+
+
+#rodape {
+    color: black;
+}
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -36,21 +43,20 @@ h3{
 
 
 .img{
-    max-width: 100%;
-    min-width: auto;
-    display: inline;
+    display:flexbox;
+    flex-wrap: wrap;
+    
 }
 
 .DOCES{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-    margin:0 auto ;
+    border-color: 10px;   
 }
 
 .DOCES > div{
-    flex: 1 1 200px;
-    margin: 2px;0px;
+    flex: 1 1 800px;
+    margin: 2px;
 }
 
 
@@ -58,28 +64,27 @@ h3{
 .BEBIDAS{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-    margin:0 auto ;
+   
 }
 
 .BEBIDAS > div{
-    flex: 1 1 200px;
-    margin: 2px;0px;
+    flex: 1 1 800px;
+    margin: 2px;
 }
 
 
 
 
-.rodape{
+.rodape > div{
     display: inline;
-    text-decoration-color: black;
+    text-anchor: black;
     padding-left: 10px;
     margin-right: 10px;
      
 }
 
-contener
 
-
-
-
+#rodape > a{
+    color: black;
+    
+}
